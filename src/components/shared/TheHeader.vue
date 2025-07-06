@@ -8,7 +8,7 @@
         </svg>
       </label>
     </div>
-    <div class="mx-2 flex-1 px-2">Navbar Title</div>
+    <RouterLink class="mx-2 flex-1 px-2" :to="{ name: 'home' }">UConverter</RouterLink>
     <div class="hidden flex-none lg:block">
       <TheNav horizontal />
     </div>

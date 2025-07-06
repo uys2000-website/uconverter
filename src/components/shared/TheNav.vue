@@ -1,8 +1,9 @@
 <template>
   <ul class="menu w-full" :class="{ 'menu-horizontal': horizontal }">
-    <!-- Navbar menu content here -->
-    <li><a>Navbar Item 1</a></li>
-    <li><a>Navbar Item 2</a></li>
+    <li>
+      <RouterLink :to="{ name: 'privacy' }">Privacy Policy</RouterLink>
+    </li>
+    <li><a href="https://app.uconverter.mehmetuysal.dev">App</a></li>
   </ul>
 </template>
 
